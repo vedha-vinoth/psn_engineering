@@ -1,0 +1,25 @@
+.welcome{
+    
+    color: black;
+    padding:150px;
+    padding-bottom: 400px;
+    text-align: center;
+   
+}
+.welcome h1{
+color: navy;
+text-transform: capitalize;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.welcome button{
+  background-color: green;
+  margin-top: 30px;
+  width: 50px;
+  color: white;
+  border: none;
+  border-radius: 1em;
+  padding: 10px;
+}
+#yes{
+    margin-right: 30px;
+}

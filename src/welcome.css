@@ -1,0 +1,10 @@
+.welcome{
+    
+    color: black;
+    padding: 100px;
+    justify-content: center;
+}
+
+.welcome button{
+    background-color: pink;
+}

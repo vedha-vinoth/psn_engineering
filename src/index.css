@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+.nav{
+  background-color:  rgb(8, 8, 82);
+  /* border-bottom: 0.1px solid white; */
+
+  
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  padding: 10px;
+}
+ .link{
+     color: aliceblue;
+     text-decoration: none;
+     margin-right: 15px;
+     text-transform: uppercase;
+     padding: 5px;
+     text-decoration: none;
+ }
+ .link:hover{
+  background-color: aliceblue;
+  color:  rgb(4, 4, 87);
+  border-radius:2px  ;
+  transition: 1s;
+  
+ }
+ 
+ 

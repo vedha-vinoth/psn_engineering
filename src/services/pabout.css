@@ -1,0 +1,472 @@
+ body{
+background-color:white;
+ }
+
+.aboutnav li{
+   width: 140px;
+    background-color: rgb(10, 10, 80);
+    text-align: center;
+    padding: 10px;
+    border-bottom: 0.1px solid white;
+
+    
+} 
+.aboutnav li:hover{
+    background-color: white;
+    border-radius: 1em;
+    border: 1px solid rgb(10, 10, 80) ;
+    box-shadow: 10px 0px 20px ;
+    padding: 10px;
+    transition:1s ;
+} 
+
+.link2{
+    text-decoration: none;
+    color: red;
+} 
+
+.aboutpsn{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom left,lightblue,white);
+
+     word-spacing: 7px;
+    padding: 30px;
+     padding-left: 30px;
+    color:darkblue;
+     line-height: 25px; 
+    
+    margin-top: 10px;
+
+}.aboutpsn li{
+    margin-top: 10px;
+}
+.aboutpsn h1{
+    color: rgb(136, 14, 14);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    ;
+}
+
+/* computer science */
+.cse{
+    width: 80%;
+    margin-left: 200px;
+    margin-top: -250px;
+    word-spacing: 5px;
+    padding-bottom: 30px;
+}
+.cseimages img{
+    width: 450px;
+    height: 300px;
+    
+    margin-top: 10px;
+    margin-left: 30px;
+
+
+}
+.cse h1{
+    color:rgb(10, 10, 80);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.cse h2{
+    color: red;
+    margin-top: 10px;
+    margin-top: 5px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.cse P{
+    color: rgb(7, 7, 87);
+    line-height: 2em;
+}
+.cse li{
+  color:  rgb(7, 7, 87);
+  margin-top: 10px;
+}
+/* marine */
+.marine{
+    width: 80%;
+    margin-left: 200px;
+    margin-top: -250px;
+    word-spacing: 5px;
+    padding-bottom: 30px; 
+}
+.marine h1{
+    color: rgb(7, 7, 85);
+    text-transform:capitalize;
+    margin-top: -30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 10px;
+    
+
+}
+
+.marine h2{
+    color: red;
+    margin-top: 5px;
+    padding:5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.marine p{
+     margin-left: 15px;
+    
+    text-align: justify;
+    height: 2em;
+    word-wrap: break-word;
+    color: darkblue;
+    font-weight: 300;
+    padding-bottom: 60px;
+    text-transform:lowercase; }
+    
+    .marine img{
+        margin-top:60px;
+        height: 300px;
+        margin-left: 10px;
+        
+    }
+    .marine li{
+        color: rgb(11, 11, 90);
+        text-align: justify;
+        line-height: 20px;
+        text-transform: capitalize;
+    }
+    .marinep2{
+        margin-top: 20px;
+    
+        color: red;
+    }
+    
+
+/* mechanical engineering */
+.mech{
+    width: 80%;
+    margin-left: 200px;
+    margin-top: -250px;
+    word-spacing: 5px;
+    padding-bottom: 30px; 
+
+}
+.mechimges img{
+    width: 450px;
+    height: 300px;
+    
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.mech h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(7, 7, 85);
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+}
+.mech h2{
+    color: red;
+    margin-top: 5px;
+    padding:5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mech p{
+    margin-left: 15px;
+    text-align: justify;
+
+    word-wrap: break-word;
+    color: darkblue;
+    
+    line-height:20px;
+    text-transform:lowercase;
+
+}
+
+
+/* ece */
+.ece{
+    width: 80%;
+    margin-left: 180px;
+    margin-top: -250px;
+    word-spacing: 5px;
+    padding-bottom: 30px;
+    }
+.ece h1{
+    color: rgb(7, 7, 85);
+    text-transform:capitalize;
+    margin-top: -30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ece h2{
+    color: red;
+    margin-top: 5px;
+    padding:5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imgp{
+    display: flex;
+    flex-direction: row;
+
+}
+.ece img{
+    width: 30%px;
+    height: 300px;
+}
+.ece span{
+    color: rgb(9, 9, 80);
+}
+.ece p{
+    
+    margin-left: 15px;
+    
+    text-align: justify;
+    height: 2em;
+    word-wrap: break-word;
+    color: darkblue;
+    font-weight: 400;
+    line-height:20px;
+    text-transform:lowercase;
+}
+.ece li{
+    margin-top: 20px;
+    color:darkblue;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: justify;
+}
+/* civi */
+.civil{
+    width: 80%;
+    margin-left: 200px;
+    margin-top: -250px;
+    word-spacing: 5px;
+    padding-bottom: 30px;
+}
+.civil h1{
+    padding-bottom: 10px;
+    color: rgb(7, 7, 85);
+    text-transform:capitalize;
+    margin-top: -30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1px solid red;
+}
+.civil h2{
+    color: red;
+    margin-top: 5px;
+    padding:5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.civil p{
+    margin-left: 15px;
+    
+    text-align: justify;
+    
+    word-wrap: break-word;
+    color: darkblue;
+    font-weight: 500;
+    
+    text-transform:lowercase;
+}
+.civil li{
+    margin-top: 20px;
+    color:darkblue;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: justify;
+
+}
+
+   /* facilities of psn */
+   .facilities{
+    display: flex;
+    flex-wrap: wrap;
+    /* border :1px solid black; */
+    width: 90%;
+    margin-left: 140px;
+    margin-top: -70px;
+    word-spacing: 5px;
+    padding-bottom: 30px;
+   }
+   .facilities div{
+    width:580px;
+    height: 200px;
+    background-image: linear-gradient(to right, lightblue,white);
+    margin-top:20px;
+    margin-left: 5px;
+   }
+   .facilities img{
+    width:55%;
+    height: 195px;
+   }
+   .facilities span{
+    color:darkblue;
+    position: relative;
+    top: -30px;
+    border-bottom: 0.1px solid red;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: capitalize;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    
+   }
+   .contact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    justify-content: center;
+    margin-top: 200px;
+    padding-bottom: 200px;
+   }
+   .contact div{
+    width: 250px;
+    height: 220px;
+    padding: 20px;
+    
+    text-align: center;
+    
+    margin-left: 10px;
+    margin-right: 40px;
+    
+   }
+   .loca{
+    color: red;
+    font-size: 50px;
+   } 
+
+
+   
+   
+   /* media  quries */
+
+@media (max-width:1010px) {
+
+    .facilities{
+        margin: auto;
+    }
+
+    .civil{
+            
+            margin: auto;
+            position: relative;
+            top:30px ;
+            width: 100%;
+            padding: 10px;
+    }
+    .civil img{
+        width: 100%;
+    
+
+    }
+    .civil h1{
+        font-size: 25px;
+    }
+    
+        
+ /* mech media */
+    
+    .mech{
+        margin: auto;
+        position: relative;
+        top:50px ;
+
+    }
+    .mech img{
+        width: 100%;
+        margin-left: -10px;
+        
+    }
+    .mech h1{
+        font-size: 25px;
+    }
+    /* marine queries */
+    .marine{
+        margin: auto;
+        position: relative;
+        top:50px ;
+        width: 100%;
+        padding: 15px;
+    }
+    .marineimages{
+    
+        margin-top: 200px;
+        width: 100%;
+    }
+    .marine img {
+        width: 100%;
+    }
+    .marine P{
+        line-height: 20px;
+    }
+    .cse{
+        margin: auto;
+    }
+    .cse img{
+        width: 100%;
+    }
+    .cse h1{
+        font-size: 23px;
+    }
+
+    /* ece media quries */
+    .ece{
+      
+        margin: auto;
+    
+        padding: 10px;
+        position: relative;
+        top: 50px;
+    }
+    .ece p{
+        width:100%;
+    }
+    .ece img{
+        width: 100%;
+    }
+    .ece li{
+        width: 100%;
+    }
+    .aboutnav li{
+        width: 100%;
+        /* height:20px */
+        border: 0.1px solid white;
+        
+        
+    }
+    .imgp{
+        display: block;
+    }
+    .ece P{
+        width: 100%;
+    }
+    .ece img{
+        width:100% ;
+    }
+    .ece2{
+        margin-top:280px;
+        width: 80%;
+    }
+
+}
+@media(max-width:700px){
+    .ece h1{
+        font-size: 20px;
+    }
+    .ece P{
+        line-height: 20px;
+    }
+}
+    .ece h2{
+    font-size: 20px;
+   }
+   
+    
+
+
+
+/* civil */
